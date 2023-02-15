@@ -123,10 +123,7 @@
 .mh-demo-styles ul{
   margin-bottom: 12px;
 }
-.mh-demo-styles ul li{
-  display: inline-block;
-  width: 49%;
-}
+
 .demo-style-switch ul li a img {
   border: 1px solid #000;
 

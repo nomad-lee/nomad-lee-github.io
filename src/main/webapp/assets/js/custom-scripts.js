@@ -160,21 +160,21 @@
     
     /*
     |=================
-    | Project review slide
+    | mh-testimonial
     |================
     */   
-    $('.mh-project-testimonial').owlCarousel({
+    $('.mh-testimonial').owlCarousel({
         loop: true,
         responsiveClass: true,
-        nav: false,
-        dots: false,
+        nav: true,
+        dots: true,
         autoplay: true,
         smartSpeed: 450,
         stopOnHover : true,
         animateIn: 'slideInRight',
         animateOut: 'slideOutLeft',
         autoplayHoverPause: true,
-        pagination: false,
+        pagination: true,
         responsive: {
           0: {
             items: 1,
@@ -216,38 +216,7 @@
             items: 1,
           }
         }
-    });    
-    
-    /*
-    |=================
-    | Project review slide
-    |================
-    */   
-    $('.mh-single-project-slide-by-side').owlCarousel({
-        loop: false,
-        responsiveClass: true,
-        nav: true,
-        navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
-        dots: false,
-        autoplay: false,
-        smartSpeed: 450,
-        stopOnHover : true,
-        animateIn: 'slideInRight',
-        animateOut: 'slideOutLeft',
-        autoplayHoverPause: true,
-        pagination: false,
-        responsive: {
-          0: {
-            items: 1,
-          },
-          768: {
-            items: 1,
-          },
-          1170: {
-            items: 1,
-          }
-        }
-    });     
+    });
     
     /*
     |=================

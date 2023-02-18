@@ -162,7 +162,8 @@
     |=================
     | mh-testimonial
     |================
-    */   
+    */ 
+   
     $('.mh-testimonial').owlCarousel({
         loop: true,
         responsiveClass: true,
@@ -181,10 +182,12 @@
           },
           768: {
             items: 1,
-          },
+          }/*,
+          
           1170: {
             items: 1,
           }
+          */
         }
     });     
     
@@ -193,18 +196,18 @@
     | Single Project review
     |================
     */   
-    $('#single-project').owlCarousel({
-        loop: false,
+    $('.single-project').owlCarousel({
+        loop: true,
         responsiveClass: true,
-        nav: false,
+        nav: true,
         dots: true,
-        autoplay: false,
+        autoplay: true,
         smartSpeed: 450,
         stopOnHover : true,
         animateIn: 'slideInRight',
         animateOut: 'slideOutLeft',
         autoplayHoverPause: true,
-        pagination: false,
+        pagination: true,
         responsive: {
           0: {
             items: 1,

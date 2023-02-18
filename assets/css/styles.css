@@ -2509,6 +2509,10 @@ body {
   padding: 20px; }
   .mh-service .mh-service-item div {
 	text-align: center; }
+  .mh-service .mh-service-item ul li {
+	list-style: inside;
+	text-indent: -20px;
+	margin-left: 20px; }
   .mh-service .mh-service-item img {
 	height: 60px;
 	margin: 8px;
